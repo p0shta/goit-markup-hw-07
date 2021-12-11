@@ -4,18 +4,31 @@
 
 @import './utils/variables';
 @import './utils/utils';
+@import './utils/mixins';
+
+// components
+@import './components/btn';
+@import './components/filter-btn';
+@import './components/logo';
+@import './components/product-card';
+@import './components/socials';
+@import './components/title';
+@import './components/features-card';
+@import './components/works-card';
+@import './components/clients-card';
+@import './components/input';
 
 // main
-@import './components/header';
-@import './components/hero';
-@import './components/features';
-@import './components/works';
-@import './components/team';
-@import './components/clients';
-@import './components/footer';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/works';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
 
-@import './components/modal';
+@import './layout/modal';
 
 // portfolio
-@import './components/filter';
-@import './components/portfolio-items';
+@import './layout/filter';
+@import './layout/portfolio-items';
