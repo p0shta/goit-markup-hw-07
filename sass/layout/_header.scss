@@ -4,6 +4,9 @@
         display: flex;
         align-items: center;
     }
+    &__logo {
+        margin-right: 93px;
+    }
     &__header-contacts {
         margin-left: auto;
     }
@@ -49,9 +52,7 @@
         margin-left: 50px;
     }
     &__link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex-center;
         padding: 32px 0;
         font-size: 14px;
         font-weight: 500;
